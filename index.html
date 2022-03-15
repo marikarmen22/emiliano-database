@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    
+    <script> src="https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js"</script>
+
+    <script>
+    const firebaseConfig = {
+  apiKey: "AIzaSyCNm3z9cSOXShOoSC7mWjFUuwS4onFB0UM",
+  authDomain: "juego-de-cars-multijugadores.firebaseapp.com",
+  databaseURL: "https://juego-de-cars-multijugadores-default-rtdb.firebaseio.com",
+  projectId: "juego-de-cars-multijugadores",
+  storageBucket: "juego-de-cars-multijugadores.appspot.com",
+  messagingSenderId: "47724421936",
+  appId: "1:47724421936:web:d247b9b3fb80905db79ef5"
+};
+    // Initialize Firebase (Frase final del código Firebase de interés)
+    firebase.initializeApp(firebaseConfig);</script>
+
+    
+    
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
